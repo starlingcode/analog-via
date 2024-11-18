@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "custom_ic")(type "KiCad")(uri "/home/user/repos/kicad-resources/symbols/custom_ic.kicad_sym")(options "")(descr ""))
+)

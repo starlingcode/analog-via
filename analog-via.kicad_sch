@@ -13413,12 +13413,6 @@
 		(uuid "3352f324-d420-41c3-8fdb-8182103b0e65")
 	)
 	(junction
-		(at 205.74 387.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3519f62d-2f13-4bc1-b0ea-1a08ed16f40e")
-	)
-	(junction
 		(at 125.73 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13447,6 +13441,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cd06aa3-279c-4a0b-b3f5-be9e9dc71881")
+	)
+	(junction
+		(at 229.87 387.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ce5f66c-7e64-479d-8794-092e17014414")
 	)
 	(junction
 		(at 140.97 129.54)
@@ -13501,12 +13501,6 @@
 		(diameter 0.9144)
 		(color 0 0 0 0)
 		(uuid "4c928992-6d06-4a50-a347-0725cd641059")
-	)
-	(junction
-		(at 229.87 387.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4dd9b1f2-a1e0-42f8-afaa-f1946d7805ad")
 	)
 	(junction
 		(at 341.63 130.81)
@@ -13609,6 +13603,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67d64e67-51e9-4848-97bb-fa31687ed7d2")
+	)
+	(junction
+		(at 229.87 372.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68bcddbd-4fdc-4fdf-a670-7acc16458f5f")
 	)
 	(junction
 		(at 269.24 287.655)
@@ -13749,10 +13749,10 @@
 		(uuid "9048ddad-9137-4af3-9f3a-144c429a11e1")
 	)
 	(junction
-		(at 205.74 372.11)
+		(at 205.74 387.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "91b2ea16-da6c-49e6-a9d4-5a667d8eb5e8")
+		(uuid "924efe1c-0632-4de3-8801-b2c84e2c28d7")
 	)
 	(junction
 		(at 260.35 148.59)
@@ -13765,6 +13765,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94f7e957-bc6f-49b5-a070-3ef3f33aef75")
+	)
+	(junction
+		(at 205.74 372.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96dc2101-e878-4337-a6f3-d42b56077bb5")
 	)
 	(junction
 		(at 334.01 130.81)
@@ -13927,12 +13933,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf3cc4c6-39a6-4140-aa95-d3a80d1f9622")
-	)
-	(junction
-		(at 229.87 372.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfb6bfc7-337b-40e7-96e6-130de095f811")
 	)
 	(junction
 		(at 256.54 229.87)
@@ -19011,6 +19011,16 @@
 		)
 		(uuid "6911c141-5ba0-4869-a48e-1be12563dcc4")
 	)
+	(text "EDIT:\nChanged part(typo) \nfrom 3V reference \nto 5V .2%"
+		(exclude_from_sim no)
+		(at 42.926 72.136 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "72e6be0e-471d-4fae-ae32-fabbb0d9a634")
+	)
 	(text "1.2n = 10kHz @ 5V -> 33k -> .15mA\n"
 		(exclude_from_sim no)
 		(at 303.276 70.104 0)
@@ -21181,8 +21191,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 297.18 379.73 0)
-		(mirror x)
+		(at 292.1 379.73 0)
+		(mirror y)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21191,7 +21201,7 @@
 		(fields_autoplaced yes)
 		(uuid "018c9eec-ff6c-428d-b451-9c46d1f2f7c9")
 		(property "Reference" "U15"
-			(at 293.37 378.4599 0)
+			(at 295.91 378.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21200,7 +21210,7 @@
 			)
 		)
 		(property "Value" "OPA1678"
-			(at 293.37 380.9999 0)
+			(at 295.91 380.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21209,7 +21219,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 297.18 379.73 0)
+			(at 292.1 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21218,7 +21228,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 297.18 379.73 0)
+			(at 292.1 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21227,7 +21237,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 379.73 0)
+			(at 292.1 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21236,7 +21246,7 @@
 			)
 		)
 		(property "JLCPCB" "C192421"
-			(at 297.18 379.73 0)
+			(at 292.1 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23577,7 +23587,7 @@
 		(lib_id "Amplifier_Operational:TL072")
 		(at 384.81 157.48 0)
 		(mirror x)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -23664,7 +23674,7 @@
 			(project "slew"
 				(path "/c034d555-3ca7-48e7-a7ce-a7a31910a898"
 					(reference "U11")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -23880,8 +23890,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 275.59 379.73 0)
-		(mirror x)
+		(at 270.51 379.73 0)
+		(mirror y)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23890,7 +23900,7 @@
 		(fields_autoplaced yes)
 		(uuid "19e01f8d-cc27-43c1-92bf-fe83b79d0fd4")
 		(property "Reference" "U14"
-			(at 271.78 378.4599 0)
+			(at 274.32 378.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23899,7 +23909,7 @@
 			)
 		)
 		(property "Value" "OPA1678"
-			(at 271.78 380.9999 0)
+			(at 274.32 380.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23908,7 +23918,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 275.59 379.73 0)
+			(at 270.51 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23917,7 +23927,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 275.59 379.73 0)
+			(at 270.51 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23926,7 +23936,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 275.59 379.73 0)
+			(at 270.51 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23935,7 +23945,7 @@
 			)
 		)
 		(property "JLCPCB" "C192421"
-			(at 275.59 379.73 0)
+			(at 270.51 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24182,8 +24192,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 208.28 379.73 0)
-		(mirror x)
+		(at 203.2 379.73 0)
+		(mirror y)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24192,7 +24202,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d37d339-672a-465b-844b-7bfc40bc7bfd")
 		(property "Reference" "U4"
-			(at 204.47 378.4599 0)
+			(at 207.01 378.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24201,7 +24211,7 @@
 			)
 		)
 		(property "Value" "OPA1678"
-			(at 204.47 380.9999 0)
+			(at 207.01 380.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24210,7 +24220,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 208.28 379.73 0)
+			(at 203.2 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24219,7 +24229,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 208.28 379.73 0)
+			(at 203.2 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24228,7 +24238,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 379.73 0)
+			(at 203.2 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24237,7 +24247,7 @@
 			)
 		)
 		(property "JLCPCB" "C192421"
-			(at 208.28 379.73 0)
+			(at 203.2 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24351,7 +24361,7 @@
 		(lib_id "Amplifier_Operational:TL072")
 		(at 154.94 144.78 0)
 		(mirror x)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -24438,7 +24448,7 @@
 			(project ""
 				(path "/c034d555-3ca7-48e7-a7ce-a7a31910a898"
 					(reference "U7")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -25478,7 +25488,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 237.49 229.87 0)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -25583,7 +25593,7 @@
 			(project ""
 				(path "/c034d555-3ca7-48e7-a7ce-a7a31910a898"
 					(reference "U9")
-					(unit 1)
+					(unit 4)
 				)
 			)
 		)
@@ -26490,8 +26500,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 254 379.73 0)
-		(mirror x)
+		(at 248.92 379.73 0)
+		(mirror y)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26500,7 +26510,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e0430ba-cfe6-46d5-82bc-1831da9f5a28")
 		(property "Reference" "U11"
-			(at 250.19 378.4599 0)
+			(at 252.73 378.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26509,7 +26519,7 @@
 			)
 		)
 		(property "Value" "OPA1678"
-			(at 250.19 380.9999 0)
+			(at 252.73 380.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26518,7 +26528,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 254 379.73 0)
+			(at 248.92 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26527,7 +26537,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 254 379.73 0)
+			(at 248.92 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26536,7 +26546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 379.73 0)
+			(at 248.92 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26545,7 +26555,7 @@
 			)
 		)
 		(property "JLCPCB" "C192421"
-			(at 254 379.73 0)
+			(at 248.92 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26749,8 +26759,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 232.41 379.73 0)
-		(mirror x)
+		(at 227.33 379.73 0)
+		(mirror y)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26759,7 +26769,7 @@
 		(fields_autoplaced yes)
 		(uuid "30356f15-5d2d-4ba6-baa2-3e00a7af8886")
 		(property "Reference" "U7"
-			(at 228.6 378.4599 0)
+			(at 231.14 378.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26768,7 +26778,7 @@
 			)
 		)
 		(property "Value" "OPA1678"
-			(at 228.6 380.9999 0)
+			(at 231.14 380.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26777,7 +26787,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 232.41 379.73 0)
+			(at 227.33 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26786,7 +26796,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 232.41 379.73 0)
+			(at 227.33 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26795,7 +26805,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 379.73 0)
+			(at 227.33 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26804,7 +26814,7 @@
 			)
 		)
 		(property "JLCPCB" "C192421"
-			(at 232.41 379.73 0)
+			(at 227.33 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27980,7 +27990,7 @@
 		(lib_id "Amplifier_Operational:TL072")
 		(at 544.83 48.26 0)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -28066,7 +28076,7 @@
 			(project "_autosave-slew (copy)"
 				(path "/c034d555-3ca7-48e7-a7ce-a7a31910a898"
 					(reference "U15")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -28197,7 +28207,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C460604"
+		(property "JLCPCB" "C460606"
 			(at 43.18 91.44 0)
 			(effects
 				(font
@@ -28228,7 +28238,7 @@
 		(lib_id "Amplifier_Operational:TL072")
 		(at 499.11 67.31 0)
 		(mirror x)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -28314,7 +28324,7 @@
 			(project "_autosave-slew (copy)"
 				(path "/c034d555-3ca7-48e7-a7ce-a7a31910a898"
 					(reference "U14")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -29366,7 +29376,7 @@
 		(lib_id "Amplifier_Operational:TL072")
 		(at 499.11 35.56 0)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -29452,7 +29462,7 @@
 			(project ""
 				(path "/c034d555-3ca7-48e7-a7ce-a7a31910a898"
 					(reference "U14")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -29528,7 +29538,7 @@
 		(lib_id "Amplifier_Operational:TL072")
 		(at 270.51 82.55 0)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -29615,7 +29625,7 @@
 			(project ""
 				(path "/c034d555-3ca7-48e7-a7ce-a7a31910a898"
 					(reference "U7")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -29830,7 +29840,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 328.93 228.6 0)
-		(unit 2)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -29935,7 +29945,7 @@
 			(project ""
 				(path "/c034d555-3ca7-48e7-a7ce-a7a31910a898"
 					(reference "U9")
-					(unit 2)
+					(unit 3)
 				)
 			)
 		)
@@ -30474,7 +30484,7 @@
 		(lib_id "Amplifier_Operational:TL072")
 		(at 118.11 80.01 0)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -30482,7 +30492,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b83885b-f53c-4c96-a524-77ca9f34ae00")
 		(property "Reference" "U4"
-			(at 118.11 71.12 0)
+			(at 118.11 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30490,7 +30500,7 @@
 			)
 		)
 		(property "Value" "OPA1678"
-			(at 118.11 73.66 0)
+			(at 118.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30561,7 +30571,7 @@
 			(project ""
 				(path "/c034d555-3ca7-48e7-a7ce-a7a31910a898"
 					(reference "U4")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -32554,7 +32564,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 306.07 321.31 0)
 		(mirror x)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -32659,7 +32669,7 @@
 			(project ""
 				(path "/c034d555-3ca7-48e7-a7ce-a7a31910a898"
 					(reference "U9")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
@@ -34946,8 +34956,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 327.66 379.73 0)
-		(mirror x)
+		(at 322.58 379.73 0)
+		(mirror y)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34955,7 +34965,7 @@
 		(dnp no)
 		(uuid "87301c9f-314a-4e21-ab6a-33b5311bf434")
 		(property "Reference" "U9"
-			(at 323.85 378.4599 0)
+			(at 326.39 381.0001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34964,7 +34974,7 @@
 			)
 		)
 		(property "Value" "OPA1679"
-			(at 323.85 380.9999 0)
+			(at 326.39 378.4601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34973,7 +34983,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 326.39 382.27 0)
+			(at 323.85 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34982,7 +34992,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 328.93 384.81 0)
+			(at 321.31 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34991,7 +35001,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 379.73 0)
+			(at 322.58 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35000,7 +35010,7 @@
 			)
 		)
 		(property "JLCPCB" "C2878631"
-			(at 327.66 379.73 0)
+			(at 322.58 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35694,7 +35704,7 @@
 		(lib_id "Amplifier_Operational:TL072")
 		(at 82.55 33.02 0)
 		(mirror x)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -35780,7 +35790,7 @@
 			(project "slew"
 				(path "/c034d555-3ca7-48e7-a7ce-a7a31910a898"
 					(reference "U4")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -37929,7 +37939,7 @@
 		(lib_id "Amplifier_Operational:TL072")
 		(at 351.79 133.35 0)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -37937,7 +37947,7 @@
 		(fields_autoplaced yes)
 		(uuid "a35a8de1-76d4-404c-989e-71e630616ad4")
 		(property "Reference" "U11"
-			(at 351.79 124.46 0)
+			(at 351.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37945,7 +37955,7 @@
 			)
 		)
 		(property "Value" "OPA1678"
-			(at 351.79 127 0)
+			(at 351.79 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38016,7 +38026,7 @@
 			(project "slew"
 				(path "/c034d555-3ca7-48e7-a7ce-a7a31910a898"
 					(reference "U11")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -42250,7 +42260,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 364.49 321.31 0)
 		(mirror x)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -42354,7 +42364,7 @@
 			(project "slew"
 				(path "/c034d555-3ca7-48e7-a7ce-a7a31910a898"
 					(reference "U9")
-					(unit 4)
+					(unit 1)
 				)
 			)
 		)
@@ -44939,7 +44949,7 @@
 		(lib_id "Amplifier_Operational:TL072")
 		(at 542.29 77.47 0)
 		(mirror x)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -45025,7 +45035,7 @@
 			(project "slew"
 				(path "/c034d555-3ca7-48e7-a7ce-a7a31910a898"
 					(reference "U15")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)

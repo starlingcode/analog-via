@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "starlingpanel")(type "KiCad")(uri "${KICAD_STARLING_COMMON_DIR}/symbols/panel_mount.kicad_sym")(options "")(descr ""))
+  (lib (name "custom_ic")(type "KiCad")(uri "${KICAD_STARLING_COMMON_DIR}/symbols/custom_ic.kicad_sym")(options "")(descr ""))
+)

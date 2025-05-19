@@ -2,4 +2,4 @@
 *.lck
 *.kicad_sch-bak
 *.kicad_pcb-bak
-slew-backups
+analog-via-backups

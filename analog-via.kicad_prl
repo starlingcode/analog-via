@@ -9,9 +9,9 @@
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
-      "pads": 0.20999999344348907,
+      "pads": 0.41999998688697815,
       "shapes": 1.0,
-      "tracks": 0.23000000417232513,
+      "tracks": 1.0,
       "vias": 1.0,
       "zones": 0.15000000596046448
     },
@@ -26,7 +26,7 @@
       "pads": false,
       "text": true,
       "tracks": true,
-      "vias": false,
+      "vias": true,
       "zones": false
     },
     "visible_items": [

@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -9,28 +9,27 @@
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
-      "pads": 1.0,
+      "pads": 0.20999999344348907,
       "shapes": 1.0,
-      "tracks": 1.0,
+      "tracks": 0.23000000417232513,
       "vias": 1.0,
       "zones": 0.15000000596046448
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
-      "dimensions": true,
+      "dimensions": false,
       "footprints": true,
-      "graphics": true,
-      "keepouts": true,
+      "graphics": false,
+      "keepouts": false,
       "lockedItems": true,
-      "otherItems": true,
-      "pads": true,
+      "otherItems": false,
+      "pads": false,
       "text": true,
       "tracks": true,
-      "vias": true,
-      "zones": true
+      "vias": false,
+      "zones": false
     },
     "visible_items": [
-<<<<<<< HEAD
       "vias",
       "footprint_text",
       "footprint_anchors",
@@ -47,80 +46,8 @@
       "zones",
       "drc_warnings",
       "shapes"
-||||||| 6f2adae
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28,
-      29,
-      30,
-      32,
-      33,
-      34,
-      35,
-      36
-=======
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      8,
-      9,
-      10,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28,
-      29,
-      30,
-      32,
-      33,
-      34,
-      35,
-      36
->>>>>>> main
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffef",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -130,16 +57,8 @@
     "ssh_key": ""
   },
   "meta": {
-<<<<<<< HEAD
     "filename": "analog-via.kicad_prl",
     "version": 5
-||||||| 6f2adae
-    "filename": "slew.kicad_prl",
-    "version": 3
-=======
-    "filename": "analog-via.kicad_prl",
-    "version": 3
->>>>>>> main
   },
   "net_inspector_panel": {
     "col_hidden": [
@@ -170,7 +89,20 @@
       10,
       11
     ],
-    "col_widths": [],
+    "col_widths": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
@@ -181,7 +113,7 @@
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
-    "sorting_column": -1
+    "sorting_column": 0
   },
   "open_jobsets": [],
   "project": {
